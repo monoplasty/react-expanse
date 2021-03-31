@@ -2,6 +2,9 @@
 .babelrc
 .gitignore
 config
+dist
+example
+src
 
 .DS_*
 *.log

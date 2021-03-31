@@ -5,7 +5,7 @@ import Expanse from "../../src/index";
 function Demo() {
   const [show, setShow] = useState(false);
   return (
-    <div>
+    <div style={{margin: "40px"}}>
       <button onClick={() => setShow(!show)}>点我点我</button>
       <Expanse show={show}>
         <div style={{ width: "400px", background: "#f2f2f2" }}>

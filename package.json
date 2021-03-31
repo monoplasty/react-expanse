@@ -2,6 +2,15 @@
   "name": "react-expanse",
   "version": "1.0.0",
   "main": "lib/index.js",
+  "author": "yuqian <monoplasty@sina.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monoplasty/react-expanse.git"
+  },
+  "homepage": "https://github.com/monoplasty/react-expanse",
+  "bugs": {
+    "url": "https://github.com/monoplasty/react-expanse/issues"
+  },
   "scripts": {
     "start": "webpack serve --config config/webpack.dev.config.js --open",
     "build:demo": "webpack --config config/webpack.demo.config.js --progress",

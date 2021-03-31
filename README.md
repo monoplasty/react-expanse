@@ -1,7 +1,10 @@
 # React Expanse Animation
 ![](https://img.shields.io/bundlephobia/min/react-expanse)
 
-基于 react 的 展开和收起动画, 参考 elementUI 实现
+基于 react 的 展开和收起动画 (在线查看DEMO)[https://monoplasty.github.io/react-expanse/]
+
+如有问题欢迎(issue)[https://github.com/monoplasty/react-expanse/issues]
+
 
 ## Installation
 
