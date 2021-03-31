@@ -1,0 +1,46 @@
+{
+  "name": "react-expanse",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "webpack serve --config config/webpack.dev.config.js --open",
+    "build:demo": "webpack --config config/webpack.demo.config.js --progress",
+    "build": "webpack --config config/webpack.prod.config.js --progress"
+  },
+  "description": "This is a expanse animation component based on react",
+  "keywords": [
+    "react",
+    "react-component",
+    "expanse",
+    "expanse-animation",
+    "react-expanse"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.13.14",
+    "@babel/preset-env": "^7.13.12",
+    "@babel/preset-react": "^7.13.13",
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.3",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^5.2.0",
+    "html-webpack-plugin": "^5.3.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-transition-group": "^4.4.1",
+    "style-loader": "^2.0.0",
+    "ts-loader": "^8.1.0",
+    "typescript": "^4.2.3",
+    "webpack": "^5.28.0",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.7.3"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

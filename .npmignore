@@ -1,0 +1,21 @@
+# .npmignore
+.babelrc
+.gitignore
+config
+
+.DS_*
+*.log
+logs
+**/*.backup.*
+**/*.back.*
+
+node_modules
+bower_componets
+
+*.sublime*
+
+psd
+thumb
+sketch
+coverage
+.rpt2_cache
