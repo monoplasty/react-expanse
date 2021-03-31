@@ -1,4 +1,5 @@
 # React Expanse Animation
+![](https://img.shields.io/bundlephobia/min/react-expanse)
 
 基于 react 的 展开和收起动画, 参考 elementUI 实现
 
