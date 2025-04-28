@@ -74,7 +74,7 @@ export default memo(function Expanse(props: ExpanseProps) {
       onExit={onExit}
       onExiting={onExiting}
       onExited={onExited}>
-      {props.children}
+      <div>{props.children}</div>
     </CSSTransition>
   );
 });
